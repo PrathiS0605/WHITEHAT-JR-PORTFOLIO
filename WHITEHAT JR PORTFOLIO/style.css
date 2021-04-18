@@ -1,0 +1,70 @@
+img{
+    width:400px;
+    height:280px;
+}
+body{
+    text-align: center;
+    background-color:#808080;
+}
+
+ .header {
+     background-color: beige;
+     color:black;
+     font-size: 20px;
+     font-family: "Comic Sans MS";
+     display:flex;
+     justify-content:space-between;
+     margin-left:30px;
+     padding-left:30px;
+ }
+.grid {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.menu {
+    margin-right:30px;
+
+}
+a:link{
+    color:crimson;
+
+}
+a:visited{
+    color:green;
+}
+
+.menu a{
+    margin-left:20px;
+    margin-top:40px;
+    padding:15px;
+}
+
+.items{
+    position:relative;
+
+}
+
+.items p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.items:hover p{
+    opacity:1;
+}
+
+.footer{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.items:hover img{
+    opacity:0.3;
+    
+}
+
